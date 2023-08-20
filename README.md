@@ -5,7 +5,7 @@ Data project to ingest data to database.
 ## Clean data
 1. Review the given data files to know how the tables are structured and what information we have.
 2. Clean the data using pandas package in python.
-3. Once data is cleaned trasnform into dictionary.
+3. Once data is cleaned transform into dictionary.
 
 ## Build Database table
 1. Create 3 tables that will support the data given
@@ -14,6 +14,9 @@ Data project to ingest data to database.
 ## Build API
 1. Create an API(flask) that will connect to the databse to make request [POST, GET, PUT]
 2. This API will accept dictionary info appedn to the database.
+
+## Build Docker Container
+1. Create a docker container that will support our api and and the database
 
 # Part 2
 
