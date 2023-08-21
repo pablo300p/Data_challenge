@@ -8,7 +8,7 @@ services:
     ports:
       - "80:80"
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@db:5432/postgres
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/test
     depends_on:
       - db
   
@@ -20,7 +20,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=postgres
+      - POSTGRES_DB=test
     volumes:
       - pgdata:/var/lib/postgresql/data
 
